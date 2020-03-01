@@ -1,0 +1,19 @@
+Part 1:
+
+Choice of Quadratic Sort: Insertion Sort
+I decided to use insertion sort as apart of my implementation because
+it has the lowest consistent runtime compared to bubble sort and selection sort.
+This evidence can be seen in the graph comparing the 3 algorithms.
+
+I chose to set the size of array to 2000 because, on average, insertion sort would
+sort the given array faster than quick sort would based on the graph provided. I 
+procured this data by using the test class from a previous assignment to create
+the data for the graph.
+
+Part 2:
+
+In my implementation of external sort, I chose to use merge sort as my algorithm
+to sort each initial chunk. I chose this algorithm because it is one of the fastest
+sorting algorithms that we have learned in this class. Although merge sort is slightly
+out-classed in runtime by quick sort, I chose merge sort over the former to remain consistent
+with the merge sorting done later in external sort when merging adjacent chunks.
